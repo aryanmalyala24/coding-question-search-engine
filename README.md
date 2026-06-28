@@ -23,19 +23,33 @@ Information Retrieval (TF-IDF, Inverted Index)
 **Project Structure**
 
 .
+
 |
+
 |--Qindex.txt
+
 |--documents.txt
+
 |--idf-values.txt
+
 |--index.html
+
 |--inverted-index.txt
+
 |--leetcode_problem_links.txt
+
 |--prep.py
+
 |--query.py
+
 |--removing_solution.py
+
 |--scrap.py
+
 |--scrap_ques.py
+
 |--style.css
+
 |--vocab.txt
 
 **How It Works**
@@ -59,23 +73,41 @@ The highest-ranked coding questions are displayed along with their corresponding
 **Information Retrieval Pipeline**
 
 LeetCode Pages
+
        │
+       
        ▼
+
 Web Scraping
+
        │
+       
        ▼
+
 Text Preprocessing
+
        │
+       
        ▼
+
 Vocabulary Generation
+
        │
+       
        ▼
+
 Inverted Index
+
        │
+       
        ▼
+
 TF-IDF Scoring
+
        │
+       
        ▼
+
 Ranked Search Results
 
 **Key Concepts Implemented**
