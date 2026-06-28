@@ -1,20 +1,27 @@
-Coding Question Search Engine
+**Coding Question Search Engine**
+
 A lightweight search engine that indexes coding problems and retrieves the most relevant LeetCode questions based on user queries using Information Retrieval (IR) techniques. The project builds an inverted index, computes TF-IDF scores, and ranks problems according to query relevance.
-Features
+
+**Features**
+
 Scrapes and indexes LeetCode problem statements.
 Builds an inverted index for efficient keyword lookup.
 Computes Term Frequency (TF) and Inverse Document Frequency (IDF) values for ranking.
 Uses TF-IDF scoring to retrieve and rank the most relevant coding questions.
 Returns the Top-K matching problems with their corresponding LeetCode links.
 Provides a simple Flask-based web interface for interactive searching.
-Tech Stack
+
+**Tech Stack**
+
 Python
 Flask
 Selenium
 BeautifulSoup
 HTML/CSS
 Information Retrieval (TF-IDF, Inverted Index)
-Project Structure
+
+**Project Structure**
+
 .
 |
 |--Qindex.txt
@@ -30,7 +37,9 @@ Project Structure
 |--scrap_ques.py
 |--style.css
 |--vocab.txt
-How It Works
+
+**How It Works**
+
 1. Data Collection
 Selenium automatically scrapes LeetCode problem links.
 Problem titles and statements are extracted and stored locally.
@@ -46,7 +55,9 @@ TF-IDF scores are computed.
 Documents are ranked by relevance.
 4. Result Retrieval
 The highest-ranked coding questions are displayed along with their corresponding LeetCode problem links.
-Information Retrieval Pipeline
+
+**Information Retrieval Pipeline**
+
 LeetCode Pages
        │
        ▼
@@ -66,7 +77,9 @@ TF-IDF Scoring
        │
        ▼
 Ranked Search Results
-Key Concepts Implemented
+
+**Key Concepts Implemented**
+
 Information Retrieval
 Inverted Index
 TF (Term Frequency)
